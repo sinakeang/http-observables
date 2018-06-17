@@ -29,7 +29,7 @@ export class SearchService {
             item.artworkUrl30,
             item.artistId
           );
-        });
+        })
         return results;
       });
   }
